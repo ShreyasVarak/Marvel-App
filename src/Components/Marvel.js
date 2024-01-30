@@ -13,6 +13,7 @@ const Marvel = () => {
     fetch();
     return (
     <>
+        {
         (!item)? "":(
             <div className='box-content'>
                 <div className="right-box">
@@ -24,6 +25,7 @@ const Marvel = () => {
                 </div>
             </div>
         )
+        }    
     </>
   )
 }
